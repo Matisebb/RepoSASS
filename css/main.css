@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url(animate.css);
 .bg-linear-gradient {
   background: #b6b6b6;
   background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
@@ -117,6 +119,28 @@ footer div a {
 /* SIZE ICO REDES */
 .imgFooter {
   width: 35px; }
+
+/* ANIMACIONES */
+.bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
+.transition:hover {
+  cursor: pointer;
+  border: black;
+  width: 110%;
+  transition: all 2s;
+  border-radius: 5px; }
+
+.aquiBoton {
+  width: 100%; }
+
+.aquiBoton:hover {
+  cursor: pointer;
+  background-color: rgba(255, 74, 17, 0.8); }
+
+.scaleFoot:hover {
+  transform: scaleX(0.8); }
 
 .sectionForm {
   background: #181818;
