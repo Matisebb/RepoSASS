@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import 'animate.css';
+
+
+
+/* selectores de etiqueta */
+
+/* reset */ 
+*{
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html{
+	font-size: 62.5%;
+
+}
+
+
+
+body{
+	overflow-x: hidden;
+	background: rgba(245, 245, 245, 1.0);
+	
+}
+
+nav ul{
+	font-size: 2.5rem;
+}
+
+
+/* main */
+
+h1{
+	color: rgb(255, 74, 17);
+	font-size: 4.2rem;
+}
+
+h2{
+	font-size: 3rem;
+	color: rgb(2, 2, 2);
+}
+
+article p{
+	font-size: 1.9rem;
+	line-height: 3.5rem;
+	color: rgb(2, 2, 2);
+	text-decoration: none;
+}
+
+
+main a{
+	text-decoration: none;
+	color: rgb(2, 2, 2);
+}
+
+
+
+
+
+form {
+	text-decoration: none;
+	color: rgb(2, 2, 2);
+	font-size: 2rem;
+	display: inline-block;
+}
+
+
+
+
+h3{
+	font-size: 2.5rem;
+	color: rgb(2, 2, 2);
+}
+
+
+article h3{
+	font-size: 3rem;
+}
+
+
+section p{
+	font-size: 1.9rem;
+	line-height: 2.3rem;
+}
+
+h4{
+	font-size: 2.2rem;
+	color: rgb(2, 2, 2);
+}
+
+footer{
+	background-color: rgba(246, 246, 246, 1.0);
+}
+
+	footer p{
+		font-size: 1.9rem;
+		color: rgb(2, 2, 2);
+		text-decoration: none;
+		list-style: none;
+	}
+
+		footer div a{
+			font-size: 1.9rem;
+			text-decoration: none;
+			color: rgb(2, 2, 2);
+		}
+
+
+
+/* SELECTORES DE CLASES */
+
+
+/* NAV BS */
+.navBs{
+	font-size: 1.2em;
+}
+
+.navBs img{
+	width: 75px;
+}
+
+
+
+
+
+
+/* FONT WEIGHT */
+
+.textBold{
+	font-weight: 500;
+}
+
+.textRegular{
+	font-weight: 400;
+}
+
+.textLight{
+	font-weight: 300;
+}
+
+
+
+
+/* TEXT ALIGN */
+
+.textCenter{
+	text-align: center;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textJustify{
+	text-align: justify;
+}
+
+
+
+
+
+/* BOX MODELS */
+
+.mainModel{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 2.5rem 7rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	
+	color: rgb(2, 2, 2);
+	box-sizing: border-box;
+}
+
+
+
+.footerModel{
+	width: 100%;
+	height: auto;
+	padding: 1.5rem;
+	
+	box-sizing: border-box;
+
+}
+
+
+/* BOTON DE MAIN */
+/* ANIMACION HOVER SOBRE BTN */
+
+.botonFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btnColor{
+	background-color: rgba(244, 74, 17, 0.9);
+
+}
+
+
+
+.btnanimation{
+	width: 10%;
+}
+
+.btnanimation:hover{
+	width: 13%;
+	transition: all 2s;
+}
+
+.btnanimation2{
+	width: 100%;
+}
+
+.btnanimation2:hover{
+	width: 105%;
+	transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+/* FORMULARIO */
+
+.sectionForm{
+	background: #181818;
+	color: white;
+	box-sizing: border-box;
+	padding:  1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1170px;
+}
+
+.colorForm{
+	color: white;
+}
+
+.logo{
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+
+}
+
+.logo span{
+	color: rgb(244, 74, 17);
+}
+
+
+.contact-wrapper{
+	box-shadow: 0 0 20px  0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > *{
+	padding: 1rem;
+}
+
+.contactForm{
+	background: #222222;
+	border: none;
+
+}
+
+.contactForm form{
+	margin: 0;
+	padding: 1rem;
+}
+
+.contactForm form label, .contactForm form input {
+	width: 100%;
+	padding: .7rem;
+	border: none;
+}
+
+.contactForm form textarea{
+	width: 100%;
+	padding: .7rem;
+	border: none;
+}
+
+.contactForm form button{
+	width: 100%;
+	padding: .7rem;
+	border: none;
+	background: rgb(244, 74, 17);
+	text-transform: uppercase;
+	padding: 1rem;
+
+}
+
+
+
+
+
+/* IFRAME SIZE */
+/* NO HAY FORMA DE CENTRAR, PROBÉ CON MX-AUTO, MARGIN 0 AUTO, D-BLOCK FLEX COLUMN CENTER"*/
+
+.responsive{
+	overflow:hidden;
+
+    padding-bottom:35%;
+
+    position:relative;
+
+    height:0;
+}
+
+.responsive iframe{
+	left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+}
+
+
+
+
+
+
+/* ETIQUETAS RANDOMS */
+
+/* SIZE ICO REDES */
+.imgFooter{
+	width: 35px;
+}
+
+
+/* COLOR LIST SECCION SERVICIOS */
+.textList{
+	font-size: 1.9rem;
+	color: rgb(255, 74, 17);
+	font-weight: 500;
+	list-style: none;
+}
+
+
+/*BG DE ARTICLE SERVICIOS */
+.bg-div{
+	background: rgba(186, 186, 186, .05);
+}
+
+
+/* ALINEACION IMG SECCION SERVICIOS */
+.align{
+	text-align: center;
+}
+
+
+/* CURSOR POINTER FOOTER */
+.imgFooter:hover{
+	cursor: pointer;
+}
+
+
+/* COLOR TITULO FORM SECCION CONTACTO */
+
+.titulo{
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+
+}
+
+.titulo span{
+	color: rgb(244, 74, 17);
+}
+
+
+/* BOTON DE MAS INFORMACION */
+.button{
+	font-size: 1.9rem;
+}
+
+
+
+/* SIZE PARRAFO FOOTER */
+.p{
+	font-size: 1.9rem;
+	line-height: 2.5rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+.p1{
+	font-size: 2.5 rem;
+	line-height: 3rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+/* PROPIEDADES BOTON MAS INFORMACION */
+
+.moreInfo{
+	text-decoration: none;
+	list-style: none;
+	color: rgb(2, 2, 2);
+}
+
+.moreInfocolor{
+	background: rgb#515151;
+}
+
+
+
+/*LINE HEIGHT PARRAFOS SECCION SERVICIOS */
+.line{
+	line-height: 3.2rem;
+}
+
+
+
+
+/* ANIMACIONES */
+
+.bg-linear-gradient{
+	background: rgb(182,182,182);
+	background: linear-gradient(150deg, rgba(182,182,182,1) 0%, rgba(199,199,199,1) 64%, rgba(236,68,16,1) 100%);
+}
+
+
+/*.transition{
+	background-color: rgb(255, 74, 17);
+	border-radius: 3px;
+}*/
+
+.transition:hover{
+	cursor: pointer;
+	border: black;
+	width: 110%;
+	transition: all 2s;
+	border-radius: 5px;
+}
+
+/*@keyframes sliderImg{
+	0%{background-image:  url(../img/img.png);}
+	25%{background-image: url(../img/img1.png);}
+	60%{background-image: url(../img/img2.png);}
+	100%{background-image: url(../img/img3.png);}
+
+}*/
+
+
+.aquiBoton{
+	width: 100%;
+}
+
+.aquiBoton:hover{
+	cursor: pointer;
+	background-color: rgba(255, 74, 17, 0.8);
+}
+
+.scaleFoot:hover{
+transform: scaleX(0.8);
+	}

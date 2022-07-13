@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+.bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
+nav ul {
+  font-size: 2.5rem; }
+
+.textBold {
+  font-weight: 500; }
+
+.navBs img {
+  width: 75px; }
+  @media (min-width: 258px) and (max-width: 320px) {
+    .navBs img {
+      width: 60px; } }
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden;
+  background: whitesmoke; }
+
+h1 {
+  color: #ff4a11;
+  font-size: 4.2rem; }
+
+h2 {
+  font-size: 3rem;
+  color: #020202; }
+
+article p {
+  font-size: 1.9rem;
+  line-height: 3.5rem;
+  color: #020202;
+  text-decoration: none; }
+
+main a {
+  text-decoration: none;
+  color: #020202; }
+
+form {
+  text-decoration: none;
+  color: #020202;
+  font-size: 2rem;
+  display: inline-block; }
+
+h3 {
+  font-size: 2.5rem;
+  color: #020202; }
+
+article h3 {
+  font-size: 3rem; }
+
+section p {
+  font-size: 1.9rem;
+  line-height: 2.3rem; }
+
+h4 {
+  font-size: 2.2rem;
+  color: #020202; }
+
+/* BOTON DE MAIN */
+/* ANIMACION HOVER SOBRE BTN */
+.botonFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.btnColor {
+  background-color: rgba(244, 74, 17, 0.9); }
+
+.button {
+  font-size: 1.9rem; }
+
+.btnanimation {
+  width: 10%; }
+
+.btnanimation:hover {
+  width: 13%;
+  transition: all 2s;
+  text-decoration: none;
+  color: #020202; }
+
+.btnanimation2 {
+  width: 100%; }
+
+.btnanimation2:hover {
+  width: 105%;
+  transition: all 2s; }
+
+footer div a {
+  font-size: 1.9rem;
+  text-decoration: none;
+  color: #020202; }
+
+/* TEXT ALIGN */
+.textCenter {
+  text-align: center; }
+
+.textLeft {
+  text-align: left; }
+
+.textRight {
+  text-align: right; }
+
+.textJustify {
+  text-align: justify; }
+
+/* SIZE ICO REDES */
+.imgFooter {
+  width: 35px; }
+
+.sectionForm {
+  background: #181818;
+  color: white;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px; }
+
+.colorForm {
+  color: white; }
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  color: white; }
+  .logo span {
+    color: #f44a11; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1rem; }
+
+.contactForm {
+  background: #222222;
+  border: none; }
+  .contactForm form {
+    margin: 0;
+    padding: 1rem; }
+  .contactForm form label, .contactForm form input {
+    width: 100%;
+    padding: .7rem;
+    border: none; }
+  .contactForm form textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none; }
+  .contactForm form button {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background: #f44a11;
+    text-transform: uppercase;
+    padding: 1rem; }
+
+footer .bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
+footer div section h4 .textBold {
+  font-weight: 500; }
+
+p a img .imgFooter {
+  width: 35px; }
+
+footer section p .textLight {
+  font-weight: 300; }
+
+footer section p span .textBold {
+  font-weight: 500; }

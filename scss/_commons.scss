@@ -1,0 +1,140 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+
+}
+
+body{
+	overflow-x: hidden;
+	background: $bodyColor;
+	
+}
+h1{
+	color: $tittleColor;
+	font-size: $tittleSize;
+}
+
+h2{
+	font-size: $subtittleSize;
+	color: $otrosColor;
+}
+
+article p{
+	font-size: $parrafSize;
+	line-height: 3.5rem;
+	color: $otrosColor;
+	text-decoration: none;
+}
+
+
+main a{
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+form {
+	text-decoration: none;
+	color: $otrosColor;
+	font-size: $formSize;
+	display: inline-block;
+}
+
+
+h3{
+	font-size: $h3Size;
+	color: $otrosColor;
+}
+
+
+article h3{
+	font-size: $subtittleSize;
+}
+
+
+section p{
+	font-size: $parrafSize;
+	line-height: 2.3rem;
+}
+
+h4{
+	font-size: $h4Size;
+	color: $otrosColor;
+}
+
+
+/* BOTON DE MAIN */
+/* ANIMACION HOVER SOBRE BTN */
+.botonFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btnColor{
+	background-color: rgba(244, 74, 17, 0.9);
+
+}
+
+.button{
+	font-size: $parrafSize;
+}
+
+.btnanimation{
+	width: 10%;
+}
+
+.btnanimation:hover{
+	width: 13%;
+	transition: all 2s;
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+.btnanimation2{
+	width: 100%;
+}
+
+.btnanimation2:hover{
+	width: 105%;
+	transition: all 2s;
+}
+
+
+
+footer div a{
+	font-size: $parrafSize;
+	text-decoration: none;
+	color: $otrosColor;
+}
+
+
+
+/* TEXT ALIGN */
+
+.textCenter{
+	text-align: center;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textJustify{
+	text-align: justify;
+}
+
+/* SIZE ICO REDES */
+.imgFooter{
+	width: 35px;
+}
+
