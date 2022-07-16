@@ -1,24 +1,29 @@
 // ANIDACION
-	//background nav
+nav{
 	.bg-linear-gradient{
 		background: rgb(182,182,182);
 		background: linear-gradient(150deg, rgba(182,182,182,1) 0%, rgba(199,199,199,1) 64%, rgba(236,68,16,1) 100%);
 	}
 
-	nav{
-		ul{
-		font-size: $h3Size;
-		}
+	.navBs{
+		font-size: $navSize;
 	}
 
 	.textBold{
 		font-weight: $bold;
 	}
 
-	.navBs img{
+	img{
 		width: 75px;
 		@media (min-width: 258px) and (max-width: 320px){
 			width: 60px;
 		}
+	} 
+
+	ul{
+		font-size: $h3Size;
 	}
+}
+
+
 

@@ -1,22 +1,27 @@
 //ANIDACION
 
-footer .bg-linear-gradient{
+footer{
+	.bg-linear-gradient{
 		background: rgb(182,182,182);
 		background: linear-gradient(150deg, rgba(182,182,182,1) 0%, rgba(199,199,199,1) 64%, rgba(236,68,16,1) 100%);
-}
+	}
 
-footer div section h4 .textBold{
-	font-weight: $bold;
-}
+	section p .textRegular{
+		font-weight: $regular;
+		
+		.imgFooter{
+			width: 35px;
+		}
+	}
 
-p a img .imgFooter{
-	width: 35px;
-}
 
-footer section p .textLight{
-	font-weight: $light;
-}
 
-footer section p span .textBold{
-	font-weight: $bold;
-}
+	section p .textLight{
+		font-weight: $light;
+
+		.textBold{
+			font-weight: $bold;
+		}
+
+	}
+} 

@@ -1,21 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 @import url(animate.css);
-.bg-linear-gradient {
+nav .bg-linear-gradient {
   background: #b6b6b6;
   background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
 
-nav ul {
-  font-size: 2.5rem; }
+nav .navBs {
+  font-size: 1.2rem; }
 
-.textBold {
+nav .textBold {
   font-weight: 500; }
 
-.navBs img {
+nav img {
   width: 75px; }
   @media (min-width: 258px) and (max-width: 320px) {
-    .navBs img {
+    nav img {
       width: 60px; } }
+
+nav ul {
+  font-size: 2.5rem; }
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -120,6 +123,132 @@ footer div a {
 .imgFooter {
   width: 35px; }
 
+/* FORMULARIO */
+.sectionForm {
+  background: #181818;
+  color: white;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px; }
+
+.colorForm {
+  color: white; }
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  color: white; }
+
+.logo span {
+  color: #f44a11; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1rem; }
+
+.contactForm {
+  background: #222222;
+  border: none; }
+
+.contactForm form {
+  margin: 0;
+  padding: 1rem; }
+
+.contactForm form label, .contactForm form input {
+  width: 100%;
+  padding: .7rem;
+  border: none; }
+
+.contactForm form textarea {
+  width: 100%;
+  padding: .7rem;
+  border: none; }
+
+.contactForm form button {
+  width: 100%;
+  padding: .7rem;
+  border: none;
+  background: #f44a11;
+  text-transform: uppercase;
+  padding: 1rem; }
+
+/* IFRAME SIZE */
+/* NO HAY FORMA DE CENTRAR, PROBÉ CON MX-AUTO, MARGIN 0 AUTO, D-BLOCK FLEX COLUMN CENTER"*/
+.responsive {
+  overflow: hidden;
+  padding-bottom: 35%;
+  position: relative;
+  height: 0; }
+
+.responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+/* COLOR LIST SECCION SERVICIOS */
+.textList {
+  font-size: 1.9rem;
+  color: #ff4a11;
+  font-weight: 500;
+  list-style: none; }
+
+/*BG DE ARTICLE SERVICIOS */
+.bg-div {
+  background: rgba(186, 186, 186, 0.05); }
+
+/* ALINEACION IMG SECCION SERVICIOS */
+.align {
+  text-align: center; }
+
+/* CURSOR POINTER FOOTER */
+.imgFooter:hover {
+  cursor: pointer; }
+
+/* COLOR TITULO FORM SECCION CONTACTO */
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  color: white; }
+
+.titulo span {
+  color: #f44a11; }
+
+/* BOTON DE MAS INFORMACION */
+.button {
+  font-size: 1.9rem; }
+
+/* SIZE PARRAFO FOOTER */
+.p {
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  list-style: none; }
+
+.p1 {
+  font-size: 2.5 rem;
+  line-height: 3rem;
+  text-decoration: none;
+  list-style: none; }
+
+/* PROPIEDADES BOTON MAS INFORMACION */
+.moreInfo {
+  text-decoration: none;
+  list-style: none;
+  color: #020202; }
+
+.moreInfocolor {
+  background: rgb #515151; }
+
+/*LINE HEIGHT PARRAFOS SECCION SERVICIOS */
+.line {
+  line-height: 3.2rem; }
+
 /* ANIMACIONES */
 .bg-linear-gradient {
   background: #b6b6b6;
@@ -193,14 +322,12 @@ footer .bg-linear-gradient {
   background: #b6b6b6;
   background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
 
-footer div section h4 .textBold {
-  font-weight: 500; }
-
-p a img .imgFooter {
-  width: 35px; }
+footer section p .textRegular {
+  font-weight: 400; }
+  footer section p .textRegular .imgFooter {
+    width: 35px; }
 
 footer section p .textLight {
   font-weight: 300; }
-
-footer section p span .textBold {
-  font-weight: 500; }
+  footer section p .textLight .textBold {
+    font-weight: 500; }
