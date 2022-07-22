@@ -76,40 +76,34 @@ h4{
 
 /* BOTON DE MAIN */
 /* ANIMACION HOVER SOBRE BTN */
-.botonFlex{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
+.botonFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+ }
 
-.btnColor{
-	background-color: rgba(244, 74, 17, 0.9);
+.btnColor {
+  background-color: rgba(244, 74, 17, 0.9); }
 
-}
+.button {
+  font-size: 1.9rem; }
 
-.button{
-	font-size: $parrafSize;
-}
+.btnanimation {
+  width: 10%; }
 
-.btnanimation{
-	width: 10%;
-}
+.btnanimation:hover {
+  width: 13%;
+  transition: all 2s;
+  text-decoration: none;
+  color: #020202; }
 
-.btnanimation:hover{
-	width: 13%;
-	transition: all 2s;
-	text-decoration: none;
-	color: $otrosColor;
-}
+.btnanimation2 {
+  width: 100%; }
 
-.btnanimation2{
-	width: 100%;
-}
-
-.btnanimation2:hover{
-	width: 105%;
-	transition: all 2s;
-}
+.btnanimation2:hover {
+  width: 105%;
+  transition: all 2s; }
 
 
 

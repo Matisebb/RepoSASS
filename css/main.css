@@ -77,7 +77,8 @@ h4 {
 .botonFlex {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  border: none; }
 
 .btnColor {
   background-color: rgba(244, 74, 17, 0.9); }
