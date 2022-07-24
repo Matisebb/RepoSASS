@@ -59,7 +59,7 @@ section p{
  }
 
 .btnColor {
-  background-color: rgba(244, 74, 17, 0.9); }
+  background-color: map-get($map:$paleta, $key:'1'); }
 
 .button {
   font-size: 1.9rem; }
