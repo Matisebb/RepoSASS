@@ -1,1 +1,38 @@
-//
+//mixins
+@mixin titulo($size, $color){
+	font-size: $size;
+	color: $color
+}
+
+h1{
+	@include titulo($tittleSize, $tittleColor);
+}
+
+
+h2{
+	@include titulo($subtittleSize, $otrosColor);
+}
+
+h3{
+	@include titulo($h3Size, $otrosColor);
+}
+
+h4{
+	@include titulo($h4Size, $otrosColor);
+}
+
+article p{
+	@include titulo($parrafSize, $otrosColor);
+	text-decoration: none;
+	line-height: 3.5rem;
+}
+
+
+//maps
+$paleta: (
+	'1' : rgba(244, 74, 17, 0.9),  
+	'2' : #181818,
+	'3' : #222222,
+	'4' : white, 
+	);
+

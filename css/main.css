@@ -1,6 +1,28 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 @import url(animate.css);
+h1 {
+  font-size: 4.2rem;
+  color: #ff4a11; }
+
+h2 {
+  font-size: 3rem;
+  color: #020202; }
+
+h3 {
+  font-size: 2.5rem;
+  color: #020202; }
+
+h4 {
+  font-size: 2.2rem;
+  color: #020202; }
+
+article p {
+  font-size: 1.9rem;
+  color: #020202;
+  text-decoration: none;
+  line-height: 3.5rem; }
+
 nav .bg-linear-gradient {
   background: #b6b6b6;
   background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
@@ -33,20 +55,6 @@ body {
   overflow-x: hidden;
   background: whitesmoke; }
 
-h1 {
-  color: #ff4a11;
-  font-size: 4.2rem; }
-
-h2 {
-  font-size: 3rem;
-  color: #020202; }
-
-article p {
-  font-size: 1.9rem;
-  line-height: 3.5rem;
-  color: #020202;
-  text-decoration: none; }
-
 main a {
   text-decoration: none;
   color: #020202; }
@@ -57,20 +65,12 @@ form {
   font-size: 2rem;
   display: inline-block; }
 
-h3 {
-  font-size: 2.5rem;
-  color: #020202; }
-
 article h3 {
   font-size: 3rem; }
 
 section p {
   font-size: 1.9rem;
   line-height: 2.3rem; }
-
-h4 {
-  font-size: 2.2rem;
-  color: #020202; }
 
 /* BOTON DE MAIN */
 /* ANIMACION HOVER SOBRE BTN */
